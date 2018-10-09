@@ -46,6 +46,7 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+  overflow-wrap: break-word;
 }
 
 main {
@@ -135,7 +136,7 @@ main {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
 
