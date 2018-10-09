@@ -139,7 +139,8 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #eece1a;
+  overflow-wrap: break-word; }
 
 main {
   padding: 4rem;
@@ -195,7 +196,7 @@ main {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
