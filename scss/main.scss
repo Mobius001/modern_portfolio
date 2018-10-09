@@ -18,7 +18,8 @@ body {
 //headings
 h1,
 h2,
-h3 {
+h3,
+h6 {
   margin: 0;
   font-weight: 400;
 
@@ -46,7 +47,6 @@ header {
 
 .text-secondary {
   color: $secondary-color;
-  overflow-wrap: break-word;
 }
 
 main {
